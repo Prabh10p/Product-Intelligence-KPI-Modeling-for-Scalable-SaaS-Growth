@@ -55,12 +55,18 @@ The dataset represents user sessions captured during an A/B test. It includes us
 
 
 # 📊 Project Overview
-This is end-to-end analytics project analyzes over **1.1 million retail transactions** using advanced SQL, Python modeling, and Tableau dashboarding. The solution spans:
+This project investigates the effectiveness of a redesigned SaaS landing page by analyzing user engagement through an A/B testing framework. The goal is to determine whether the new design significantly improves product interaction and conversion compared to the original version.
 
-- **Data Engineering**: Cleaned, transformed, and indexed data using SQL for performance optimization.
-- **Customer Segmentation**: Used Pyhton and KMeans clustering to analyze behaviors of 300K+ customers.
-- **Predictive Modeling**: Developed a Python based regression model (R² = 0.80) to forecast purchase amounts.
-- **Business Intelligence**: Delivered a Tableau dashboard covering AOV trends, SKU performance, and segment engagement to inform strategy.
+We collected and analyzed data from over **196,000 user sessions**, randomly assigned to either a control group (original design) or an experimental group (new design). Key behavioral metrics like **Click-Through Rate (CTR)**, **session duration**, **bounce rate**, and **user retention** were tracked and compared.
+
+A complete data pipeline was developed to ensure robust analytics:
+- **SQL** was used for data cleaning, preprocessing, metric engineering, cohort retention analysis, and building user funnels.
+- **Python** enabled statistical hypothesis testing (e.g., Welch’s t-test, Mann-Whitney U), effect size estimation (Cohen’s d, Cliff’s delta), and user segmentation via clustering.
+- **Tableau** was employed to develop a dynamic, executive-facing dashboard that visualizes DAU, CTR, bounce rate trends, funnel stages, and cohort retention by A/B group and user segments.
+
+The analysis revealed that the experimental design led to a **~140% increase in CTR** and a **~30% drop in bounce rate**, with consistent improvements across devices and referral channels. These results support a full rollout of the new design, particularly for desktop traffic.
+
+This project highlights end-to-end product analytics workflows, combining data engineering, statistics, visualization, and business decision-making for real-world experimentation.
 
 
 
@@ -121,7 +127,7 @@ https://public.tableau.com/app/profile/prabhjot.singh7010/viz/ProductIntelligenc
 
 - Comparative cohort retention by experiment group
 
-## 📈 Python- 
+## 📈 Python 
 
 **Python (Jupyter Notebooks)**:
 
