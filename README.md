@@ -61,10 +61,10 @@ We collected and analyzed data from over **196,000 user sessions**, randomly ass
 
 A complete data pipeline was developed to ensure robust analytics:
 - **SQL** was used for data cleaning, preprocessing, metric engineering, cohort retention analysis, and building user funnels.
-- **Python** enabled statistical hypothesis testing (e.g., Welch’s t-test, Mann-Whitney U), effect size estimation (Cohen’s d, Cliff’s delta), and user segmentation via clustering.
+- **Python** enabled statistical hypothesis testing (e.g., t-test,z-test), effect size estimation (Cliff’s delta), and user segmentation via clustering.
 - **Tableau** was employed to develop a dynamic, executive-facing dashboard that visualizes DAU, CTR, bounce rate trends, funnel stages, and cohort retention by A/B group and user segments.
 
-The analysis revealed that the experimental design led to a **~140% increase in CTR** and a **~30% drop in bounce rate**, with consistent improvements across devices and referral channels. These results support a full rollout of the new design, particularly for desktop traffic.
+The analysis revealed that the experimental design led to a **~30% increase in CTR** and a **~30% drop in bounce rate**, with consistent improvements across devices and referral channels. These results support a full rollout of the new design, particularly for desktop traffic.
 
 This project highlights end-to-end product analytics workflows, combining data engineering, statistics, visualization, and business decision-making for real-world experimentation.
 
